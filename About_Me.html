@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(127, 172, 255);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.Future-Plan, Future-Plan.h1, Future-Plan.p {
+    text-align: center;
+    background-color: bisque;
+    font-size: large;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>My Life - My Experience</h1>
+  <h2>Social worker</h2>
+  <h3>Business owner and operator</h3>
+  <h4>Software develoer and data scientist</h4>
+  <h2>Mother</h2>
+</div>
+
+<h2 style="text-align:center">Different Phases ~ Different Experiences</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./kailali.jpg" alt="Sunu" style="width:100%">
+      <div class="container">
+        <h2>Social Development</h2>
+        <p class="title">Human Resource Development Officer</p>
+        <p>Lutheran World Federation Nepal</p>
+        <p class="title">Administrative Officer</p>
+        <p>UNDP/PPPUE</p>
+        <p><button class="button">Social Development and Administration</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./work.jpg" alt="Sunu" style="width:100%">
+      <div class="container">
+        <h2>Business Owner and Operator</h2>
+        <p class="title">SGC Management LLC</p>
+        <p>Retail store of designer sunglasses</p>
+        <p class="title">Personalized Gifts</p>
+        <p>Retail store of gift items</p>
+        <p><button class="button">operations of more than 10 different businesses</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./mother.jpg" alt="Sunu" style="width:100%">
+      <div class="container">
+        <h2>Motherhood</h2>
+        <p class="title">Housemaker</p>
+        <p>Mother of two pre-teen children</p>
+        <p class="title">Wife</p>
+        <p>A business and life partner for 15 years</p>
+        <p><button class="button">Motherhood is the most challenging job.</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Future-Plan">
+    <h1>Sofware Development & Data Science</h1>
+  
+        <p>~&#160;html &#160; ~&#160;css &#160; ~&#160;JavaScript &#160; ~&#160;SQL &#160; ~&#160;Excel &#160; ~&#160;Tableau</p>
+
+
+  </div>
+</body>
+</html>
